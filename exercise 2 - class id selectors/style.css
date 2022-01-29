@@ -1,0 +1,22 @@
+p {
+    background-color: pink;
+}
+.odd {
+    font-family:Verdana, DejaVuSans , sans-serif
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four,
+.odd.three {
+    font-size: 24px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-weight:bold
+}
+  
