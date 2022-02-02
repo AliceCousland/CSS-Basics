@@ -23,25 +23,33 @@ body {
   padding: 16px
 }
 
+/* makes ! and header and >X< be on the same line */
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
+  text-align:center;
   background: lavender;
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  border-color: ;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header {
+  font-weight: bold;
+  font-size: larger;
+  padding-right: 100px;
 }
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -53,6 +61,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text {
+  display: inline-flex;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.button {
+  display: inline-flex;
+  margin: 15px;
+  padding-left: 35px;
+  gap: 5px;
 }
 
 button {
